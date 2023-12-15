@@ -4,14 +4,167 @@
     <!-- meta tags, links to css, etc. -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Generative Design</title>
+    <title>Generative Design - Blake Craig</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+    <div class="container">
+        <div class="quizContainer my-5 p-4 rounded">
+            <div class="row mb-4">
+                <div class="col">
+                    <h1 class="mb-0">What is your F1 Team?-style Quiz</h1>
+                </div>
+            </div>
 
-    <!-- visible content goes here -->
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="question-tile p-4 rounded">
+                        <p>Question 1: Have you ever watched F1?</p>
+                    </div>
+                </div>
 
-    <!-- load javascript after the page elements render -->
+                <div class="col-md-6 mb-4">
+                    <div class="answer-tile p-4 rounded">
+                        <button class="btn btn-lg btn-block answer">Yes</button>
+                        <button class="btn btn-lg btn-block answer">No</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="question-tile p-4 rounded">
+                        <p>Question 2: Do you value teamwork?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="answer-tile p-4 rounded">
+                        <button class="btn btn-lg btn-block answer">Anything for my mates.</button>
+                        <button class="btn btn-lg btn-block answer">I'll look at my team...</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="question-tile p-4 rounded">
+                        <p>Question 3: Do you like the feeling of dissapointment?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="answer-tile p-4 rounded">
+                        <button class="btn btn-lg btn-block answer">It's my favorite feeling!</button>
+                        <button class="btn btn-lg btn-block answer">IT SUCKS!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="question-tile p-4 rounded">
+                        <p>Question 4: Would you rather have consistency or the ability to change drastically?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="answer-tile p-4 rounded">
+                        <button class="btn btn-lg btn-block answer" data-answer="1">Consistency is key.</button>
+                        <button class="btn btn-lg btn-block answer" data-answer="2">I'm all about change, keeps it interesting.</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="question-tile p-4 rounded">
+                        <p>Question 5: Do you prefer fame or money?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="answer-tile p-4 rounded">
+                        <button class="btn btn-lg btn-block answer">Fame</button>
+                        <button class="btn btn-lg btn-block answer">Money</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="question-tile p-4 rounded">
+                        <p>Question 5: Do you pay attention to your history class?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="answer-tile p-4 rounded">
+                        <button class="btn btn-lg btn-block answer">Yes, I'm an academic weapon!</button>
+                        <button class="btn btn-lg btn-block answer">No.</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="question-tile p-4 rounded">
+                        <p>Question 6: Which is more accurate?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="answer-tile p-4 rounded">
+                        <button class="btn btn-lg btn-block answer">Cotton Candy looks better than it tastes</button>
+                        <button class="btn btn-lg btn-block answer">Cotton Candy tastes better than it looks</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="question-tile p-4 rounded">
+                        <p>Question 7: If you could strap a gun onto an f1 car, would you?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="answer-tile p-4 rounded">
+                        <button class="btn btn-lg btn-block answer">Yes.</button>
+                        <button class="btn btn-lg btn-block answer">No?</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="question-tile p-4 rounded">
+                        <p>Question 8: Are you a try hard or just casual?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="answer-tile p-4 rounded">
+                        <button class="btn btn-lg btn-block answer">I'm just a little sweaty.</button>
+                        <button class="btn btn-lg btn-block answer">No</button>
+                    </div>
+                </div>
+            </div>
+            <!-- ... your existing content ... -->
+        </div>
+
+        <div class="results-container my-5">
+            <h1 class="text-light bg-dark p-4 rounded">Quiz Results</h1>
+            <p class="lead">Thank you for completing the quiz!</p>
+            <!-- ... your existing content ... -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
